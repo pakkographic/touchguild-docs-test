@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(56, 47, 47);;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(56, 47, 47);
+    position: fixed;
+    block-size: 100%;
+    inline-size: 100%;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inline-size: 50%;
+    block-size: 70%;
+}
+
+.fullicon {
+    width: 70%;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    inline-size: 100%;
+    block-size: 30%;
+}
+
+.links a {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+.spacer {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    color: whitesmoke;
+}

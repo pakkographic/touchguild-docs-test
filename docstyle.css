@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  body {
+    background-color: #2C2F33;
+      display: table;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  h1, h2, a {
+    color: white;
+  }
+
+  div#main {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  span.spacer {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  a:visited {
+    color: whitesmoke;
+  }
