@@ -17,12 +17,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    inline-size: 50%;
+    inline-size: 80%;
     block-size: 70%;
 }
 
 .fullicon {
-    width: 70%;
+    width: 60%;
 }
 
 .links {
@@ -45,3 +45,10 @@ body {
     margin-left: 1rem;
     color: whitesmoke;
 }
+
+@media (max-width:450px){
+    .fullicon {
+      width: 100%;
+    }
+  }
+
